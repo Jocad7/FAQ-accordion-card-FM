@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Kumbh+Sans&display=swap');
+:root {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: hsl(240, 6%, 50%);
+  
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: hsl(240, 73%, 65%);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, hsl(240, 73%, 65%), hsl(273, 75%, 66%));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, hsl(240, 73%, 65%), hsl(273, 75%, 66%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+
+
+
+
